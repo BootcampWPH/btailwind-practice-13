@@ -1,0 +1,27 @@
+{
+  "name": "meet-13-typescript-advanced-types-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boilerplate kosong live coding Meet 13 — Henry Rivardo",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "practice:all": "npm run build && node dist/01-generic-type.js && node dist/02-generic-constraints.js && node dist/03-pick-omit.js && node dist/04-partial-required.js && node dist/05-readonly-record.js && node dist/06-conditional-types.js && node dist/07-returntype-parameters.js && node dist/08-awaited.js && node dist/09-real-world-practice.js",
+    "lesson:01": "npm run build && node dist/01-generic-type.js",
+    "lesson:02": "npm run build && node dist/02-generic-constraints.js",
+    "lesson:03": "npm run build && node dist/03-pick-omit.js",
+    "lesson:04": "npm run build && node dist/04-partial-required.js",
+    "lesson:05": "npm run build && node dist/05-readonly-record.js",
+    "lesson:06": "npm run build && node dist/06-conditional-types.js",
+    "lesson:07": "npm run build && node dist/07-returntype-parameters.js",
+    "lesson:08": "npm run build && node dist/08-awaited.js",
+    "lesson:09": "npm run build && node dist/09-real-world-practice.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
